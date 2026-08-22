@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ShoppingBag, Heart, Search, Menu, X } from 'lucide-react';
+import logo from "../assets/logo.png";
 
 const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -14,7 +15,7 @@ const Header = () => {
                     
                    <div className="flex items-center gap-2">
                     <img
-                        src="/favicon.png"
+                        src={logo}
                         alt="Aura Beauty"
                         className="w-8 h-8 object-contain"
                     />
