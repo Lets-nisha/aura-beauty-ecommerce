@@ -17,7 +17,7 @@ const Header = () => {
                     <img
                         src={logo}
                         alt="Aura Beauty"
-                        className="w-8 h-8 object-contain"
+                        className="w-10 h-10 object-contain"
                     />
                     <h1 className="text-xl md:text-2xl font-serif font-bold tracking-widest text-[#2A2A2A]">
                         AURA BEAUTY
