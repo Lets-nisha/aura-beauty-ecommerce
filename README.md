@@ -43,17 +43,26 @@ src/
 
 Follow these steps to run the project locally on your machine:
 
+---
+
 ### 1. Clone the repository
 ```bash
 git clone [https://github.com/Lets-nisha/aura-beauty-ecommerce.git](https://github.com/Lets-nisha/aura-beauty-ecommerce.git)
 cd aura-beauty-ecommerce
+
+---
 
 ### 2. Install dependencies
 ```bash
 npm install
 npm run dev
 
+---
+
 ## 4. Project Live Demo Link
+https://aura-beauty-ecommerce.vercel.app
+
+---
 
 ## 📄 License
 
