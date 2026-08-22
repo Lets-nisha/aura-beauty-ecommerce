@@ -11,9 +11,18 @@ const Header = () => {
                     <button className="md:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
                         {isMobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
                     </button>
+                    
+                   <div className="flex items-center gap-2">
+                    <img
+                        src="/favicon.png"
+                        alt="Aura Beauty"
+                        className="w-8 h-8 object-contain"
+                    />
                     <h1 className="text-xl md:text-2xl font-serif font-bold tracking-widest text-[#2A2A2A]">
                         AURA BEAUTY
                     </h1>
+                </div>
+                    
                 </div>
 
                 <nav className="hidden md:flex items-center gap-8 text-xs font-semibold uppercase tracking-wider text-[#4A4A4A]">
