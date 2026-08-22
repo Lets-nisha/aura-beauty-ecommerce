@@ -1,16 +1,60 @@
-# React + Vite
+# 🌸 Aura Beauty — E-Commerce Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and luxury-styled e-commerce landing page built for **Aura Beauty** (a clean botanical skincare brand). Designed with high-fidelity UI principles and implemented using React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Responsive Design**: Mobile-first architecture optimized for all screen sizes (Desktop, Tablet, Mobile).
+- **Single Component Structure**: Clean, modular, and fast-loading single-file React architecture.
+- **Brand Aesthetic**: Warm Nude (`#FAF8F5`) and Rose Pink (`#D88A8A`) luxury palette with balanced serif typography.
+- **Interactive UI Elements**: Dynamic category circles, product cards with hover effects, interactive navigation, and round newsletter input.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
+## 📁 Project Structure
 
-## Expanding the ESLint configuration
+```text
+src/
+├── components/
+│   ├── TopBar.jsx            # Announcement Bar
+│   ├── Header.jsx            # Responsive Navigation & Icons
+│   ├── HeroSection.jsx       # Main Banner & CTA
+│   ├── CategorySection.jsx   # Curated Circular Collections
+│   ├── ProductCard.jsx       # Individual Product Layout
+│   ├── ProductGrid.jsx       # Best Sellers Display
+│   ├── PromoBanner.jsx       # Full-Width Discount Offer
+│   └── Footer.jsx            # Links, Newsletter & Socials
+├── App.jsx                   # Main Assembly File
+├── index.css                 # Global Styles & Tailwind Directives
+└── main.jsx                  # Entry Point
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Framework**: React.js (Vite)
+- **Styling**: Tailwind CSS
+- **Icons**: `react-icons/fa6` & `lucide-react`
+- **Version Control**: Git & GitHub
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally on your machine:
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/Lets-nisha/aura-beauty-ecommerce.git](https://github.com/Lets-nisha/aura-beauty-ecommerce.git)
+cd aura-beauty-ecommerce
+
+### 2. Install dependencies
+```bash
+npm install
+npm run dev
+
+## 3. License
+This project was created for educational purposes as part of an assignment submission.
+
+## 4. Project Live Demo Link
+
